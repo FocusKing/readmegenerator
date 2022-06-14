@@ -55,6 +55,9 @@ const init = async () => {
 
          fs.writeFile(filename, JSON.stringify(data, null, 2), (err) =>
              err ? console.log(err) : console.log('Success!')
+
+             
+             
          );
      };
 
