@@ -1,13 +1,61 @@
-// TODO: Include packages needed for this application
+ const { prompt } = require('inquirer');
+ const fs = require('fs');
+ // TODO: Create a function to write README file
 
-// TODO: Create an array of questions for user input
-const questions = [];
+ // Function call to initialize app
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+ const init = () => {
+     prompt([
+        {
+             type: 'input',
+             name: 'project-name',
+             message: 'What is the name of your project?',
+         },
+         {
+             type: 'input',
+             name: 'description',
+             message: 'How would you describe the motivation behind your project?',
+         },
+         {
+             type: 'input',
+             name: 'table of contents',
+             message: 'Where can the details regarding your project be displayed?',
+         },
+         {
+             type: 'input',
+             name: 'usuage',
+             message: 'What is the user story?',
+         },
+         {
+             type: 'input',
+             name: 'license',
+             message: 'Are there any license supporting your project?',
+         },
+         {
+             type: 'input',
+             name: 'credits',
+             message: 'Did anyone else contribute?',
+         },
 
-// TODO: Create a function to initialize app
-function init() {}
+         {
+             type: 'checkbox',
+             message: 'What is included in your assignment',
+             name: 'stack',
+             choices: ['Title', 'Description', 'Table of Contents', 'Usuage'],
+         },
+         {
+             type: 'list',
+             message: 'What is your preferred method of communication?',
+             name: 'License',
+             choices: ['email', 'GitHub'],
+         },
+     ])
+     .then((data) => {
+         const filename = `${data.name.toLowerCase().split(' ').join('')}.json`;
 
-// Function call to initialize app
-init();
+         fs.writeFile(filename, JSON.stringify(data, null, 2), (err) =>
+             err ? console.log(err) : console.log('Success!')
+         );
+     });
+ };
+ init();
