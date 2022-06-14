@@ -33,10 +33,11 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
     ```
 
 ## Credits
-List your collaborators
+List your collaborators, I was fortunate enough to get additional assistance from class mates either during office hours or during private study group sessions after class. I truly appreciate any help that I have received throughout this project.
 
 If you followed tutorials, include links to those here as well. Below is the intial link used to create the respository by capturing information from the starter code.
 [Link]https://github.com/coding-boot-camp/potential-enigma
+[Screencastify-Link]
 
 ## License
 MIT License
