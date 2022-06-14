@@ -1,10 +1,12 @@
 {
-  "project": "readmegenerator",
-  "description": "descrition",
-  "table of contents": "table",
-  "usuage": "create",
-  "license": "love",
-  "credits": "he",
-  "stack": [],
-  "method": "email"
+  "project": "readme generator",
+  "description": "desciption",
+  "table of contents": "table of contents",
+  "usuage": "create a professional readme",
+  "license": "yes",
+  "credits": "no",
+  "stack": [
+    "Title"
+  ],
+  "method": "GitHub"
 }

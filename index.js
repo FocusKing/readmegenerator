@@ -14,7 +14,7 @@ const init = async () => {
          {
              type: 'input',
              name: 'description',
-             message: 'How would you describe the motivation behind your project?',
+             message: 'Where would you describe the motivation behind your project?',
          },
          {
              type: 'input',
