@@ -4,11 +4,11 @@
 
  // Function call to initialize app
 
- const init = () => {
-     prompt([
+const init = async () => {
+     const questions = [
         {
              type: 'input',
-             name: 'project-name',
+             name: 'project',
              message: 'What is the name of your project?',
          },
          {
@@ -46,16 +46,16 @@
          {
              type: 'list',
              message: 'What is your preferred method of communication?',
-             name: 'License',
+             name: 'method',
              choices: ['email', 'GitHub'],
          },
-     ])
-     .then((data) => {
-         const filename = `${data.name.toLowerCase().split(' ').join('')}.json`;
+     ];
+         const data = await prompt(questions);
+         const filename = `${data.project.toLowerCase().split(' ').join('')}.json`;
 
          fs.writeFile(filename, JSON.stringify(data, null, 2), (err) =>
              err ? console.log(err) : console.log('Success!')
          );
-     });
- };
- init();
+     };
+
+init();

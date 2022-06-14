@@ -1,18 +1,15 @@
-# <ReadME Generator>
+# <README Generator>
 
 ## Description
 
 As a developer my task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. I reviewed the professional readme guide as a reminder of everything that a high-quality, professional README should contain.
 
 The application will be invoked by using the following command:
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+- What was your motivation? Create a program so that the utilizes the inquirer package. 
+- Why did you build this project? To practice using installed application to produce a professional README
 
-## Table of Contents (Optional)
+## Table of Contents 
 
-If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [Installation](#installation)
 - [Usage](#usage)
