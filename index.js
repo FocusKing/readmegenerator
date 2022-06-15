@@ -52,7 +52,8 @@ const init = async () => {
          },
      ];
          const data = await prompt(questions);
-         return 'template';
+        //  const template = await prompt(answers);
+         
          const filename = `${data.project.toLowerCase().split(' ').join('')}.json`;
 
              
