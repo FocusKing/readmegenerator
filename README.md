@@ -70,7 +70,7 @@ The last section of a high-quality README file is the license. This lets other d
 
 ## Badges
 
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
+![stayCLEAN](https://img.shields.io/badge/stay-CLEAN-blue)
 
 
 ## Tests

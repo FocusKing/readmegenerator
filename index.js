@@ -45,9 +45,9 @@ const init = async () => {
          },
          {
              type: 'list',
-             message: 'What is your preferred method of communication?',
-             name: 'method',
-             choices: ['email', 'GitHub'],
+             message: 'What License was this created with?',
+             name: 'license',
+             choices: ['GPL', 'MIT', 'Apache', 'ISC'],
          },
      ];
          const data = await prompt(questions);
