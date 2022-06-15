@@ -18,6 +18,7 @@ const generateLicense = (type) => {
 
 const generatePage = ({
     project,
+    installations,
     description,
     usuage,
     credits,
@@ -26,9 +27,11 @@ const generatePage = ({
     console.log('GENERATING README');
     const template = (
         `
-# Project-Name
+# Project
+${project}
 
 ## Description
+${description}
 
 
 ## Table of Contents 
@@ -39,13 +42,15 @@ const generatePage = ({
 - [License](#license)
 
 ## Installation
+${installations}
 
 
 
 ## Usage 
-
+${usuage}
 
 ## Credits
+${credits}
 
 
 ## ${generateLicense(license)}

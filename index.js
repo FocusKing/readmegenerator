@@ -21,8 +21,8 @@
          },
          {
              type: 'input',
-             name: 'table of contents',
-             message: 'Where can the details regarding your project be displayed?',
+             name: 'installations',
+             message: 'Did you have to use installations?',
          },
          {
              type: 'input',
