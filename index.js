@@ -41,10 +41,11 @@
          },
 
          {
-             type: 'checkbox',
-             message: 'What is included in your assignment',
-             name: 'stack',
-             choices: ['Title', 'Description', 'Table of Contents', 'Usuage'],
+             type: 'input',
+             name: 'badges',
+             message: 'Did you utilize any badges?',
+             
+            //  choices: ['Title', 'Description', 'Table of Contents', 'Usuage'],
          },
          {
              type: 'list',

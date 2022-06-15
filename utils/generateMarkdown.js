@@ -23,6 +23,7 @@ const generatePage = ({
     usuage,
     credits,
     license,
+    badges,
 }) => {
     console.log('GENERATING README');
     const template = (
@@ -52,6 +53,9 @@ ${usuage}
 ## Credits
 ${credits}
 
+## Badges
+${badges}
+https://img.shields.io/badge/stay-CLEAN-blue
 
 ## ${generateLicense(license)}
 `
