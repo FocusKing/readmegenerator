@@ -1,5 +1,6 @@
  const { prompt } = require('inquirer');
  const fs = require('fs');
+
  // TODO: Create a function to write README file
 
  // Function call to initialize app
@@ -51,14 +52,10 @@ const init = async () => {
          },
      ];
          const data = await prompt(questions);
+         return 'template';
          const filename = `${data.project.toLowerCase().split(' ').join('')}.json`;
 
-         fs.writeFile(filename, JSON.stringify(data, null, 2), (err) =>
-             err ? console.log(err) : console.log('Success!')
-
              
-             
-         );
-     };
-
+         }
+           
 init();
