@@ -26,10 +26,10 @@ const generatePage = ({
     console.log('GENERATING README');
     const template = (
         `
-# ${projectname}
+# Project-Name
 
 ## Description
-## ${description}
+
 
 ## Table of Contents 
 
@@ -40,13 +40,13 @@ const generatePage = ({
 
 ## Installation
 
-## ${installation}
+
 
 ## Usage 
-## ${usage}
+
 
 ## Credits
-## ${credits}
+
 
 ## ${generateLicense(license)}
 `
