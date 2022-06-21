@@ -30,6 +30,12 @@
              message: 'What is the user story?',
          },
          {
+            type: 'input',
+            name: 'test',
+            message: 'Did you perform any test?',
+        },
+
+         {
              type: 'input',
              name: 'license',
              message: 'Are there any license supporting your project?',
@@ -53,6 +59,16 @@
              name: 'license',
              choices: ['GPL', 'MIT', 'Apache', 'ISC'],
          },
+         {
+            type: 'input',
+            name: 'github',
+            message: 'What is your GitHub?',
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'What is your email address?',
+        },
      ];
         //  const data = await prompt(questions);
         //     return templates;

@@ -1,5 +1,9 @@
-# <README Generator>
+# README Generator
 
+## Resources 
+[GitHubLink]https://github.com/FocusKing/readmegenerator
+## Badges
+![stayCLEAN](https://img.shields.io/badge/stay-CLEAN-blue)
 
 ## Description
 As a developer my task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package. I reviewed the professional readme guide as a reminder of everything that a high-quality, professional README should contain.
@@ -15,8 +19,6 @@ I built this project to practice using installed application such as Inquirer to
 
 ## Installation
 Our task was to create a command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package, package,json, DS.Store and node modules. We do this by running npm install Inquirer inside of the terminal.
-
-
 
 ## Usage
 AS A developer
@@ -54,11 +56,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-🏆
-## Badges
-![stayCLEAN](https://img.shields.io/badge/stay-CLEAN-blue)
-
 
 ## Tests
 Great way to test the program is by using node index.js, review the terminal for any errors. You can also console log data to see how the program is running and what information is being pulled through. 

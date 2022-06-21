@@ -14,8 +14,6 @@
 
 ## Installation
 
-
-
 ## Usage
 
 ## Credits
@@ -27,9 +25,6 @@
 MIT License
 
 Copyright (c) [2022] [Marquise Allen]
-
-
-
 ---
 
 🏆

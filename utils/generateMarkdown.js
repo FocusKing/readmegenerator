@@ -24,6 +24,9 @@ const generatePage = ({
     credits,
     license,
     badges,
+    test,
+    email,
+    github,
 }) => {
     console.log('GENERATING README');
     const template = (

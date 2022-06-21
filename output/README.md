@@ -1,9 +1,9 @@
 
 # Project
-README Generator
+ReadMe Generator
 
 ## Description
-Create a professional Readme Genertor
+Create a professional Readme for Developers
 
 
 ## Table of Contents 
@@ -14,18 +14,18 @@ Create a professional Readme Genertor
 - [License](#license)
 
 ## Installation
-Yes I installed Inquirer.
+yes
 
 
 
 ## Usage 
-As a developer I want a README generator so that I can quickly create a professional README for a new project
+create
 
 ## Credits
-Yes, I was fortunate to receive help from many of my colleagues.
+yes
 
 ## Badges
-Yes
+yes
 https://img.shields.io/badge/stay-CLEAN-blue
 
-## ![Apache](https://img.shields.io/badge/license-Apache-green)
+## ![ISC](https://img.shields.io/badge/license-ISC-undefined)
